@@ -1,0 +1,3164 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(34.052200, -118.243700);
+		var myOptions = {
+			zoom: 11,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(33.982900, -118.333800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (03/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045400, -118.315700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/22/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.942000, -118.271700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.957200, -118.271700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/10/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.200900, -118.636900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (01/04/2014)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.059100, -118.241200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CRIMINAL HOMICIDE (01/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.121100, -118.204800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.241000, -118.398700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.314700, -118.458900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.201200, -118.466200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER) (01/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.235400, -118.451700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/30/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.029400, -118.267100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (10/26/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.965100, -118.278300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (02/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.965100, -118.275400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "STALKING (06/07/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.201200, -118.416000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING - PETTY THEFT ($950 & UNDER) (01/06/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.945600, -118.265200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/01/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043100, -118.253600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.050300, -118.250400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.035200, -118.258300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "EMBEZZLEMENT, PETTY THEFT ($950 & UNDER) (01/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.268000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DOCUMENT FORGERY / STOLEN FELONY (01/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051700, -118.245600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043500, -118.247100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/06/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.039500, -118.265600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.213900, -118.479300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.058100, -118.237100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BIKE - STOLEN (01/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.068800, -118.233300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (01/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048200, -118.247200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH 0007=02 (01/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051000, -118.248000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ATTEMPTED ROBBERY (01/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063200, -118.240800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (01/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046700, -118.242700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (01/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043000, -118.234100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "RESISTING ARREST (01/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (01/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045100, -118.260400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD0036 (01/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.050300, -118.243300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (01/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.255000, -118.410300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/21/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043000, -118.260600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "COUNTERFEIT (01/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.135100, -118.215300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.064000, -118.237500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045800, -118.243000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (01/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.062700, -118.246300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THROWING OBJECT AT MOVING VEHICLE (01/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041200, -118.247400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (01/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.055200, -118.232200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DEFRAUDING INNKEEPER/THEFT OF SERVICES, $400 & UNDER (01/22/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047600, -118.247700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CRIMINAL THREATS - NO WEAPON DISPLAYED (01/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040500, -118.256700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (01/25/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038300, -118.254000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (01/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.254200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (01/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.068800, -118.239400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (01/31/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038800, -118.267600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (02/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041500, -118.265400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (02/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.036300, -118.257300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048200, -118.247200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044200, -118.243900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (01/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.061900, -118.236900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (02/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040100, -118.253300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD0036 (02/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040200, -118.259800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (02/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/14/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047900, -118.261200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (02/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048200, -118.247200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY WITH SEXUAL CONTACT (02/14/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.061900, -118.236900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (02/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.065000, -118.241800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ATTEMPTED ROBBERY (02/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038100, -118.262900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043300, -118.250400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (02/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043700, -118.261700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (02/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038100, -118.262900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038100, -118.232700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044900, -118.245800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (02/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040100, -118.266800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (02/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046700, -118.247000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.258100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DEFRAUDING INNKEEPER/THEFT OF SERVICES, $400 & UNDER (02/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.249000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (02/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040800, -118.242800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/24/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.249000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (02/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045200, -118.253400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (02/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.250700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/24/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.250700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (02/24/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041900, -118.248500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (02/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048200, -118.247200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (03/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (03/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044900, -118.252800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (03/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040200, -118.232900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043300, -118.250400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/06/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.254100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (03/06/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.062700, -118.246300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (03/07/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.965100, -118.278300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/13/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.089600, -118.210500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/24/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING-GRAND THEFT ($950.01 & OVER) (03/07/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.082500, -118.250000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (05/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.105900, -118.195800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (10/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.973800, -118.273900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.982400, -118.282700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.987200, -118.339900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.972200, -118.269500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (05/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.986900, -118.273900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.029400, -118.267100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/22/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.037200, -118.265400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (03/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.983400, -118.271800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/28/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.997100, -118.244900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063300, -118.229000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT (03/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (03/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.984400, -118.265200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/10/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.985100, -118.278300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INDECENT EXPOSURE (02/12/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.003900, -118.239200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/29/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.007300, -118.278400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.005700, -118.249700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063300, -118.229000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CHILD NEGLECT (SEE 300 W.I.C.) (03/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.029400, -118.267100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047200, -118.237100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (03/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.036100, -118.263400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.028500, -118.269100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/08/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.983400, -118.269500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.028300, -118.271100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.022500, -118.263300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.025900, -118.253500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/24/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.948900, -118.393900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER ASSAULT (01/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.975900, -118.415600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.967000, -118.396000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.988600, -118.473000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (09/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.001000, -118.412900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (10/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.204800, -118.364900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (02/12/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.164900, -118.377400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (03/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063100, -118.233700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CRIMINAL THREATS - NO WEAPON DISPLAYED (03/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.201200, -118.424700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/29/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.275400, -118.418100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.266100, -118.422100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.253100, -118.429000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/26/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.240900, -118.413200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.056500, -118.241100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (03/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045100, -118.260400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (03/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.975700, -118.333800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (05/30/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.114600, -118.240800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045200, -118.253400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/16/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.028500, -118.239100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/12/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044500, -118.252300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.259500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (03/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.259900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING - PETTY THEFT ($950 & UNDER) (03/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.249000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (03/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.058100, -118.237100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (03/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.186500, -118.627700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/21/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.274600, -118.558600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (03/16/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.221400, -118.475600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.250000, -118.527300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (10/17/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.937800, -118.254200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/30/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.290200, -118.450800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.230900, -118.464400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/17/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (03/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.959100, -118.271700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.927100, -118.276000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044900, -118.245800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (03/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.944300, -118.246200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.937400, -118.269500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.058300, -118.237800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.259900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING - PETTY THEFT ($950 & UNDER) (03/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.245000, -118.450200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.214500, -118.430900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/01/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.241600, -118.437100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/01/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.235500, -118.458900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.054500, -118.299900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.069100, -118.291700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063700, -118.287000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/24/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.067200, -118.312800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042600, -118.241200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (03/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.054400, -118.237800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (03/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.061500, -118.241200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (03/29/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.039300, -118.272900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (03/29/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.031200, -118.261500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (03/29/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.037100, -118.255100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (03/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.256000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (03/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.250700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT, PERSON (04/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044900, -118.245800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (04/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041900, -118.252300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (04/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048700, -118.257100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (04/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049900, -118.261400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (04/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.204700, -118.615800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.061700, -118.246900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (04/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.249000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (04/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045400, -118.242200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (04/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045300, -118.249900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (04/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.062800, -118.242000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (04/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044200, -118.243900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BOMB SCARE (04/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053500, -118.256000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (04/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.052200, -118.243400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (04/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING - PETTY THEFT ($950 & UNDER) (04/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.379700, -118.528600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "EXTORTION (04/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.036300, -118.273300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (04/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.250700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (04/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045900, -118.254500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD0036 (05/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.968500, -118.256400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/29/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (05/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042800, -118.246100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (05/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040200, -118.263300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (05/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.037100, -118.255100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (05/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040500, -118.260400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (05/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (05/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.266600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (05/19/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.027700, -118.257400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER) (09/10/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048100, -118.254200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (05/22/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (05/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.037800, -118.256100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (05/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.246800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (05/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.039100, -118.261700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (05/24/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (05/25/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043300, -118.250400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (05/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (05/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051600, -118.256100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (05/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041900, -118.248500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (05/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045300, -118.249900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "RAPE, FORCIBLE (06/01/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044500, -118.252300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (06/01/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046100, -118.247600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (05/22/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041900, -118.248500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (06/04/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.059100, -118.241200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (06/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.259500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (06/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.266600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (06/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.037500, -118.242300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (06/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.249000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (02/11/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040300, -118.242100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (06/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (06/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046100, -118.247600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (06/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.025800, -118.270800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/11/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051600, -118.256100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (06/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042400, -118.249300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (06/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.038900, -118.264300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - ATTEMPT (06/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043700, -118.265200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/12/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047300, -118.256600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (06/14/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.032400, -118.267500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (06/15/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.246800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (06/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CRIMINAL THREATS - NO WEAPON DISPLAYED (06/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOPLIFTING - PETTY THEFT ($950 & UNDER) (06/23/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063500, -118.231300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063500, -118.231300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048000, -118.257700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT FROM MOTOR VEHICLE - GRAND ($400 AND OVER) (06/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.264000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/29/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.246800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (06/29/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.025600, -118.234900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/01/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.057800, -118.237100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (06/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046700, -118.248500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (06/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044200, -118.268000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DOCUMENT FORGERY / STOLEN FELONY (06/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.056500, -118.241100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (07/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.098100, -118.205400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/22/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.031700, -118.262600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (07/05/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.987300, -118.470600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.063100, -118.233700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (07/08/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043900, -118.251400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DOCUMENT FORGERY / STOLEN FELONY (06/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043900, -118.251400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DOCUMENT FORGERY / STOLEN FELONY (07/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046000, -118.250900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (07/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.259900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (07/09/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (07/21/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.259900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD0036 (07/25/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045400, -118.242200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - AGGRAVATED ASSAULT (07/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.046600, -118.242700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (07/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.047300, -118.242500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (07/26/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045900, -118.235100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (07/27/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.050400, -118.240900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD0036 (07/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.190300, -118.526200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "DISTURBING THE PEACE (06/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.089100, -118.266200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/14/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.110700, -118.202700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/21/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.111800, -118.291800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/10/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.968800, -118.269500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/04/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.057100, -118.250900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "TRESPASSING (07/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.974700, -118.278300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/17/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.989200, -118.291500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/26/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.982000, -118.265200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/09/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.029600, -118.229900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.253600, -118.426600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/15/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043700, -118.265200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (07/28/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.036400, -118.260300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (07/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.178500, -118.413700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/29/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.157700, -118.363700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.181100, -118.361500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.210300, -118.395400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/22/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.144800, -118.392600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/16/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043000, -118.242000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (07/30/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.242800, -118.536100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/16/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (08/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.183100, -118.383300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (09/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.273800, -118.484700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.161300, -118.361500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.201200, -118.383400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (12/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.952900, -118.265100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/21/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.263900, -118.338300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/16/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.267900, -118.300800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/08/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.262500, -118.436100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.217500, -118.361800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/11/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.224400, -118.384000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (05/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.254300, -118.310500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/01/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.243900, -118.416400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/11/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.253500, -118.403200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/14/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.234500, -118.371300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.244500, -118.415500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/11/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.043500, -118.242700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (08/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.224600, -118.588500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/13/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.286800, -118.411700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/14/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.278200, -118.422500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (07/17/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.267900, -118.300800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (10/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.210300, -118.372500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (10/06/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.232100, -118.396400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CHILD ANNOYING (17YRS & UNDER) (10/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053200, -118.242500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (08/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.058200, -118.238700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "OTHER MISCELLANEOUS CRIME (08/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.226700, -118.502600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (08/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040700, -118.246800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT (08/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.251700, -118.603900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/07/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.251800, -118.606100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/14/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.931000, -118.252200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/25/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049500, -118.249400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "ROBBERY (08/10/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.257500, -118.498000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (02/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.931000, -118.287000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (12/20/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.228400, -118.485100);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.948300, -118.232900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/10/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.230000, -118.566700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044600, -118.245000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (08/13/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.250000, -118.597300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THEFT PLAIN - PETTY ($950 & UNDER) (04/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.224600, -118.538300);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (04/11/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.272000, -118.497800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/12/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.256400, -118.553600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (04/08/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.221300, -118.489600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY FROM VEHICLE (04/23/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.227300, -118.553600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (04/30/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.057800, -118.252000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (08/17/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.262700, -118.527400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/03/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.256400, -118.553600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (06/14/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.244500, -118.614800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (07/19/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.226400, -118.566700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BURGLARY (07/21/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.935100, -118.254200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/27/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048800, -118.251800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (08/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.048800, -118.251800);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (08/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.943200, -118.246200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (11/05/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.228300, -118.465500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (09/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051000, -118.248000);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (08/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.053400, -118.240900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "THROWING OBJECT AT MOVING VEHICLE (08/18/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041200, -118.243600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "RESISTING ARREST (08/20/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.041900, -118.248500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "CRIMINAL HOMICIDE (08/24/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045900, -118.257900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "SHOTS FIRED AT INHABITED DWELLING (08/31/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.045000, -118.243500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "RESISTING ARREST (08/31/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.042300, -118.245200);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (08/31/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051000, -118.244500);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS) 0114 (09/01/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(33.969800, -118.282700);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (03/18/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.040000, -118.287600);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VEHICLE - STOLEN (01/02/2010)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.044200, -118.243900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "INTIMATE PARTNER - SIMPLE ASSAULT (09/01/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.049400, -118.259900);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "BATTERY - SIMPLE ASSAULT (09/02/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(34.051500, -118.242400);
+		var img = new google.maps.MarkerImage('FFFF00.png');
+		var marker = new google.maps.Marker({
+		title: "VANDALISM - MISDEAMEANOR ($399 OR UNDER) (09/03/2013)",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
